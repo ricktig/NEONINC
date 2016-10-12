@@ -5,9 +5,9 @@
 ----------------------------------------*/
 
 $host="localhost";
-$username = "pbbtest1010"; // csdbmod
-$password = "usw4pd4r"; // !!csdbmod314
-$database = "budburst_test"; // budburst
+$username = "myusername";
+$password = "mypassword"; 
+$database = "mydatabase"; 
 
 
 // connect to database using mysqli plugin for PHP

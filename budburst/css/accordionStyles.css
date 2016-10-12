@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+
+#accordion{
+margin:5px auto 0 auto;
+width:225px;
+/* height:650px; */
+font-family: Arial,Helvetica,sans-serif;
+}
+
+#accordion img{
+margin: 5px;
+}
+
+#accordion .ui-accordion-header{
+color:black;
+font-size: 0.8em;
+}
+
+#accordion h3 .ui-state-default{
+border:1px solid #D3D3D3; 
+background-color:#006699;
+}
+
+#accordion .ui-state-hover{
+border:1px solid #D3D3D3; 
+background-color:#FFFFFF;  
+}
+
+#accordion .ui-accordion-content{
+padding:2px;
+font-size: 0.8em;
+}
+
+#accordion .ui-accordion-header-active{
+border:1px solid #D3D3D3;
+background-color: #4FAC26;
+}
+
+#accordion .ui-accordion-header-icon{
+color:#D3D3D3;
+}
+
+#accordion h3{
+margin: 1px 0 0 0;
+padding: 2px 0 2px 23px;
+font-size: 1.0em;
+height:32px;
+background:none;
+background-color:#C3D9A5;
+position:relative;
+}
+
+#accordion h3:hover{
+background-color:#4FAC26;
+}
+
+#accordion h3 em{
+font-size:.92em;
+}
+
+
+.verticalcenter{
+position:absolute;
+left:22px;
+top:3px;
+height:30px;
+display:table;
+}
+
+.verticalcenter p{
+display:table-cell;
+vertical-align:middle;
+}

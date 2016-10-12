@@ -1,0 +1,1508 @@
+/* CSS Document */
+/*------------------------------------------------
+# Author: Kirsten K. Meymaris (UCAR)
+# Modified: Greg Newman (NewmanDesigns.org)
+# modified 1/24/11
+# Last Modified 25-Jan-13 L. A. Wasser, D Ward, R Rose
+# Copyright 2008-2012 All Rights Reserved
+# National Ecological Observatory Network (NEON)	
+# University Corporation for Atmosperhic Research, 	
+# Chicago Botanic Gardens, & University of Montana	
+--------------------------------------------------*/
+
+html {
+	overflow: -moz-scrollbars-vertical;
+	overflow: scroll;
+}
+body {
+	background-color:#C3D9A5; /* #D8DEC0 light sage green; #C3D9A5 green; TNC grey is #ECE9E2 */
+	margin: 0px;
+	padding:0px;
+	color:#000000; /* set the main font color */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:.8em;
+	line-height:1.6em;
+	text-align:center;
+	font-weight:normal; */
+}
+
+p {padding:0 0 10px 0; margin:0 0 0 0;}
+
+
+
+a {
+	color:#004DFF;
+	text-decoration:none;
+	font-weight:bold;
+}
+a:hover {
+	text-decoration:underline;
+}
+a.SpecialSectionHeaderLink {
+	font-size:8pt;
+	color:#1B6120;
+	text-decoration:underline;
+}
+a.SpecialSectionHeaderLink:hover {
+	color:#004DFF;
+}
+a.BigLink {
+	color:#306848;
+	font-size:12pt;
+	text-align:left;
+}
+a.BigLink:hover {
+	color:#004DFF;
+}
+h1 {
+	background:url(../images/1_bannerRedesign/PBBIcon.png) no-repeat 0 50%;
+	font-size:1.5em;
+	font-weight: bold;
+	padding-left:34px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#306848;
+	margin:25px 0 15px 0;
+	text-shadow:0 3px 2px rgba(0, 0, 0, 0.2);
+}
+h2 {
+	color:#306848;
+	font-size: 1.2em;
+    padding: 10px 0 3px 0;
+	text-shadow:0 3px 2px rgba(0, 0, 0, 0.2);
+	margin:15px 0 2px 0;
+}
+
+h3 {
+	color:#306848;
+	font-size: 1.2em;
+    padding: 10px 0 0px 0;
+	text-shadow:0 3px 2px rgba(0, 0, 0, 0.2);
+	margin:15px 0 2px 0;
+	font-weight:normal;
+}
+
+/* this is a class that adds the favicons to the lists */
+ul.pbb {
+    list-style-image: url("../images/1_bannerRedesign/PBBIconBullet.png");
+    padding: 0 5px 0 20px;
+}
+
+/* this is css for tables... it may be used somewhere in the site... but we should remove all tables at some point */
+th {
+	font-size:11pt;
+	font-weight:bold;
+	color:#ffffff;
+	text-align:center;
+	background-image:url(../images/SectionHeader_BG.png);
+	background-repeat:repeat-x;
+	height:26px;
+	vertical-align:middle;
+}
+th.Refuge {
+	text-align:left;
+	padding-left:12px;
+}
+
+
+/* this class adjusts the size of the "SM" after BudBurst */
+sup.sm {font-size:.5em;}
+
+.ImageWithBorder {
+	border:solid 1px black;
+}
+#wrapper {
+	position:relative;
+	top:0px;
+	left:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+	margin-left:auto;
+	margin-right:auto;
+	width:776px; /* 772px */
+	padding:0px; /* 2px to make it look like a border*/
+	background-color: #313131; /* #6A9665 med green was #6A9665 or dk grey 313131 */
+	background-image:url(../images/Banner_Body_Bg_1_00.png);
+	background-position:center;
+	background-repeat:repeat-y;
+}
+#contentwrapper {
+	position:relative;
+	padding: 0px;
+	width:762px;
+	background-color: Transparent;
+	color:#000000; /* #000000 #32441E #6A9665 #113E34 */
+	border-bottom:0px;
+	text-align:left;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#Login {
+	background-image:url(../images/login.png);
+	background-repeat:no-repeat;
+	position:absolute; /* relative */
+	 top:5px;
+	 right:10px;
+	float:right;
+	  /* margin-right:12px; */
+	width:135px;
+	height:30px;
+}
+#Login:hover {
+	background-image:url(../images/login_a.png);
+	background-repeat:no-repeat;
+}
+#Logout {
+	background-image:url(../images/logout.png);
+	background-repeat:no-repeat;
+	position:absolute;
+	/*margin-top:-155px;
+	float:right;
+	margin-left:612px; */
+	width:135px;
+	height:30px;
+	right: 10px;
+    top: 5px;
+}
+#Logout:hover {
+	background-image:url(../images/logout_a.png);
+	background-repeat:no-repeat;
+}
+#LoginText {
+	position:absolute;
+	top:5px;right:155px;
+	float:right;
+	width:500px; /* 137px */
+	height:15px;
+	color:#FFFFFF;
+	font-size:.9em;
+	font-weight:bold;
+	text-align:right;
+	padding-right:2px;
+}
+#NEONCS {
+	position: absolute;
+	top:11px;
+	left:5px;
+	color:#ffffff;
+	font-weight:bold;
+	font-size:.85em;
+}
+
+.CSAdjust {position:relative;
+	top:-8px;} /* this is the style to adjust the text at the top */
+
+#NEONCS a, #NEONCS a:link, #NEONCS a:visited {color:#cccccc; text-decoration:none;}
+#NEONCS a:hover {color:#ffffff; text-decoration:none;}
+
+a.TopLoginText {
+	color:#ffffff;
+}
+
+
+
+#MainContent {
+	left:0px;
+	padding: 2px 22px 20px 22px;
+	/* width:738px; /* 762-16 = 754 */
+	background-color:#FFFFFF; /* #FFFFFF was sage #DCF2D6 */
+	/*margin: 0px;*/
+}
+#LeftColumn {
+	float:left;
+	/*width:387px;*/
+	width:49%;
+	padding-left:0px;  
+}
+#RightColumn {
+	float:right;
+	width:49%;
+	padding-right:0px;  
+}
+#SpecialSectionWrapper {
+	/*border-top-style:solid;
+	border-top-width:2px;
+	border-bottom-style:solid;
+	border-bottom-width:2px;
+	border-color:#CCCCCC;
+	height:100%;/*background-color:red;*/
+
+}
+#LeftColumnSpecialSection {
+	float:left;
+	width:420px; /* was 496 */
+	padding:0px 15px 0 0;
+	border-right:solid 1px #cccccc;
+	
+}
+
+#LeftColumnSpecialSection_partners {
+	float:left;
+	width:470px; /* was 496 */
+	padding:0px 15px 0 0;
+	border-right:solid 1px #ccc;
+	
+}
+
+#RightColumnSpecialSection {
+	float:right;
+	width:229px;
+	padding-right:0px;/*background-color:red;*/
+	color:#306848;
+}
+
+
+/* ****************************** BEGIN EDUCATION SECTION  STYLES ********************** */
+
+#Education #RightColumnSpecialSection ul {padding:0 0 0 15px}
+
+#Education #RightColumnSpecialSection {width:210px;}
+#Education #LeftColumnSpecialSection_partners {width:490px; border:none;}
+.buddies {margin:10px 0 0 0; border: 2px solid #471b41;}
+.buddies .pbb, .inTheClass .pbb {line-height:1.2em; font-size:.95em}
+.buddies .pbb li,.inTheClass .pbb li {padding:0 5px 9px 0; margin-left:10px}
+
+.inTheClass {margin:20px 0 0 0; border: 2px solid #80537A;}
+.inTheClass h3 {background-color:#80537A; margin:0; color:#fff; text-shadow:none; padding:0 7px 0 7px;}
+
+.edButtons .buttons,.edButtons .buttons:link,.edButtons .buttons:visited {font-size:1em}
+
+
+#eduRightSide {
+	float:right;
+	width:180px
+}
+
+.edHighlights {
+	width:480px;
+	border-radius:1em;
+	border:1px solid #ccc;
+	margin-bottom:10px;
+}
+.edHighlights img {
+	border-radius:1em;
+	padding:0 5px;
+	float:left;
+}
+.edHighlights p {
+	padding: 0 20px;
+}
+.edHighlights h2 {
+	padding: 0 20px;
+}
+.edHighlights h3 {
+	padding: 0 20px;
+	margin:25px 0 0 0;
+}
+.edHighlights p {
+	padding:0 20px 20px 100px;
+	margin:0;
+}
+.edButtons {
+	padding:0 0 0 95px;
+}
+.edContent {
+	min-height:180px;
+	border-bottom:4px solid #ededf3;
+}
+.edContent .edButtons {
+	float:left;
+	width:170px;
+}
+.edContent p {
+	padding:0 0 0 150px;
+	line-height:1.4em;
+	font-size:.95em;
+}
+.edContent span {
+	opacity:0.8;
+	position:absolute;
+	display:block;
+	color: #FFFFFF;
+	display: block;
+	font-size: .95em;
+	font-weight: bold;
+	margin-top: 105px;
+	opacity: 0.8;
+	padding-left: 12px;
+	width: 106px;
+	background:url(../images/1_bannerRedesign/icons/download.png) no-repeat #32520F;
+	padding:0 0 0 35px;
+	border-radius:5px;
+	background-position:left center;
+	line-height:1.5em;
+}
+.edContent span:hover {
+	background:url(../images/1_bannerRedesign/icons/download.png) no-repeat #000;
+	background-position:left center;
+}
+.edContent a img {
+	position:absolute;
+	z-index:0;
+	border-radius:5px;
+}
+
+
+
+/* *******************************  END EDUCATION STYLES  ******************************* */
+
+#LineSeparator {
+	width:98%;
+	height:2px;
+	background-color:#CCCCCC;
+}
+#Callout_Header {
+	width:152px; /* 152px */
+	border:solid #068441 2px; /* was #6A9665 */
+	display:inline-block; /* inline-block  */
+	padding-left:0px;
+	padding-top:0px;
+	margin-top:0px;
+	vertical-align:top;
+	height:220px;
+	margin-right:2px;
+}
+#Callout_Header_Image {
+	background-image:url(../images/Callout_Header.png);
+	width:135px;
+	height:26px;
+	background-repeat:no-repeat;
+	margin-top:-15px;
+	margin-left:8px;
+	padding-top:5px;
+	text-align:center;
+	color:#FFFFFF;
+	font-weight:bold;
+	font-size:9pt;
+}
+/*#Callout_Header ul*/
+ul#Callout_Header_Bullets {
+	margin-left:5px; /* 4 */
+	padding-left:1em;
+	margin-top:2px;
+	width:125px;
+	list-style-image:url(../images/Bullet.png);
+}
+#Partner_Header ul {
+	margin-left:6px; /* 4 */
+	padding-left:1em;
+	margin-top:2px;
+	width:125px;
+	list-style-image:url(../images/Bullet.png);
+}
+h2.Refuges {
+	color:#2E3092;
+}
+#PartnerHeader {
+	/*-webkit-border-radius: 10px;*/ /* Safari prototype */
+	/*-moz-border-radius: 10px;*/ /* Gecko browsers */
+	/*border-radius: 10px;*/ /* Everything else - limited support at the moment */
+	/*border:solid #068441 2px;*/ /* solid #068441 2px */
+	background-image:url(../images/GreenBorder.png);
+	background-repeat:repeat-y;
+}
+#RefugeMapHeader {
+	/*-webkit-border-radius: 10px;*/ /* Safari prototype */
+	/*-moz-border-radius: 10px;*/ /* Gecko browsers */
+	/*border-radius: 10px;*/ /* Everything else - limited support at the moment */
+	/*border:solid #2E3092 2px;*/ /* was #6A9665 */
+	background-image:url(../images/BlueBorder.png);
+	background-repeat:repeat-y;
+}
+#UrbanTreeFeature {
+	float:right;
+	margin-top:10px;
+	margin-bottom:0px;
+	margin-left:10px;
+	margin-right:0px;
+	padding:0px;
+	background-color:#C3D9A5;/*light green*/
+	width:220px;
+	clear:right;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	border: 2px solid #1B6120; /* was 4px */
+}
+#UrbanTreeFeature_Inner {
+	margin:5px;
+	padding:5px;
+	color: #1B6120; /* was #FFFFFF */
+	text-align: left;
+}
+#UTP_JoinUS {
+	display:inline-block;
+	width:126px;
+	height:26px;
+	background-image:url('../images/specialprojects_joinus.jpg');
+	margin-left:12px;
+	margin-right:12px;
+}
+#UTP_JoinUS:hover {
+	background-image:url('../images/specialprojects_joinus_2.jpg');
+}
+#RightSpecialSection {
+	padding-left:12px;
+}
+#Education #RightSpecialSection p {font-size:.9em; line-height:1.4em;
+	color:#306848;}
+
+#RightSpecialSection h3 {padding-top:0px;}
+#LeftSpecialSection {
+	padding-right:12px;
+}
+#SectionContainer {
+	padding:10px 10px;
+}
+#CommunitySectionContainer {
+	padding:0px;
+	padding-bottom:0px;
+	margin-top:0px;
+	width:165px;
+	float:right;
+}
+#SocialMediaIcons {
+	height:20px;
+	color:#360;
+	padding-bottom:3px;
+	width:100%;
+	margin-bottom:6px;
+}
+#FindACommunity {
+	margin-top:0px;
+	border-top:2px solid #360;
+	padding-top:6px;
+	text-align:center;
+	font-size:14px;
+	color:#360;
+	padding-bottom:6px;
+	border-bottom:2px solid #360;
+	margin-bottom:12px;
+}
+#SectionHeader {
+	background-image:url(../images/SectionHeader_BG.png);
+	background-repeat:repeat-x;
+	height:26px;
+	text-align:left;
+	font-size:10pt;
+	font-weight:bold;
+	color:#FFFFFF; /*  #FFFFFF */
+	padding-top:4px;
+	padding-left:12px;
+}
+#SectionHeaderRefugePage {
+	/* background-image:url(../images/SectionHeaderRefuge_BG.png); 
+	background-repeat:repeat-x;*/
+	height:52px; /* 26 */
+	
+	font-size:12pt;
+	font-weight:bold;
+    color:#306848; 
+	padding-top:4px;
+	padding-left:2px;
+}
+#SectionHeader_ClimateChange {
+	background-image:url(../images/SectionHeader_BG_ClimateChange.png);
+	background-repeat:repeat-x;
+	height:26px; /* 26 */
+	text-align:center;
+	font-size:11pt;
+	font-weight:bold;
+	color:#FFFFFF; /*  #FFFFFF */
+	padding-top:4px;
+	padding-left:2px;
+}
+#PlantHaikuOfTheWeek {
+	background-color:#FFFFFF; /* #DCF2D6 */
+	/*width:335px;*/ /* 337px */
+	/* border-top-width:2px;
+	border-right-width:2px;
+	border-bottom-width:8px;
+	border-left-width:2px; */
+	border-width: 2px 2px 8px;
+	border-style:solid;
+	border-color:#1A29A2; /* medium #1B6120 light #6CBA1F  blue ##1A29A2 */
+	margin:0 0 0 20px;
+}
+#PlantHaikuOfTheWeek_Header {
+	height:24px;
+	background-color:#1B6120; /* #F3BC00 */
+	text-align:center;
+	display:block;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11pt;
+	font-weight:bold;
+	color:#FFFFFF; /*  #FFFFFF */
+	padding-top:3px;
+	background-image:url(../images/JoinOurCommunityHeader_BG.png);
+	background-repeat:repeat-x;
+}
+#WhatsNew {
+	background-color:#FFFFFF; /* #DCF2D6 */
+	width:360px; /* 387 - 4 borders  */
+	height: 290px;
+	float:left;
+	border-top-width:2px;
+	border-right-width:2px;
+	border-bottom-width:8px;
+	border-left-width:2px;
+	border-style:solid;
+	border-color:#1B6120; /* #7EAF20 */
+}
+#MobileAppBtn {
+	float:right;
+	position:relative;
+	left:6px;
+}
+#WhatsNew_Header {
+	height:24px;
+	background-color:#1B6120; /* #7EAF20 dull deep green is #4E6C13 */
+	text-align:center;
+	display:block;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11pt;
+	font-weight:bold;
+	color:#FFFFFF;
+	padding-top:3px;
+	background-image:url(../images/SectionHeader_BG.png);
+	background-repeat:repeat-x;
+}
+#CBB_Header {
+	height:24px;
+	background-color:#D44862; /* #7EAF20 dull deep green is #4E6C13 */
+	text-align:center;
+	display:block;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13pt;
+	font-weight:bold;
+	color:#FFFFFF;
+	padding-top:3px;
+	background-image:url(../images/SectionHeaderCBB_BG.png);
+	background-repeat:repeat-x;
+}
+#VisitOurMediaCenter {
+	display:inline-block;
+	width:256px;
+	height:30px;
+	background-image:url('../images/Home/VisitOurMediaCenter_1_00.png');
+	margin-left:12px;
+	margin-right:12px;
+}
+#VisitOurMediaCenter:hover {
+	background-image:url('../images/Home/VisitOurMediaCenter_2_00.png');
+}
+#RecentReportsSectionContainer {
+	padding:0px;
+	padding-bottom:12px;
+	margin-top:0px;
+	width:180px;
+	float:left;
+}
+#RecentReports {
+	border: 1px solid #ccc;
+	width: 290px; /* 133px */
+	float: left;
+	margin:0 0 10px 20px;/*display:block;*/
+}
+
+.recentOb { margin:0 0 4px 0px; }
+
+.recentObCont {font-size:.8em; margin:0px 0 0 40px; line-height:1.4em;}
+
+
+#RecentReports_Header {
+	height:24px;
+	background-color:#1B6120;
+	text-align:center;
+	display:block;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11pt;
+	font-weight:bold;
+	color:#FFFFFF;
+	padding-top: 3px;
+	background-image:url(../images/SectionHeader_BG.png);
+	background-repeat:repeat-x;
+}
+#StoryBoard {
+	width:366px;
+	height:240px;
+}
+.StoryBoardSlideShow {
+	width:366px;
+	height:240px;
+	/*display:block;*/
+	overflow:hidden;
+}
+
+.StoryBoardSlideShow img {
+	border-radius:5px; 
+	/*box-shadow: 5px 5px 5px #ccc;*/
+	}
+#MostWanted {
+	width: 127px; /* 133px */
+	height:190px; /* 193? 199 205 */
+	float: right;
+	margin-bottom: 3px; /* 10px */
+	border-top-width: 2px;
+	border-right-width:2px;
+	border-bottom-width:2px; /* 8 */
+	border-left-width:2px;
+	border-style:solid;
+	border-color:#1B6120;
+	overflow:hidden;
+}
+#MostWanted_Header {
+	height:28px; /* 28px */
+	background-color:#1B6120; /* #1B6120 */
+	text-align:center;
+	display:block;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:8pt; /* 8pt */
+	font-weight:bold;
+	color:#FFFFFF;
+	padding-top: -2px;
+	margin-top: 0px;
+	background-image:url(../images/SectionHeader_BG.png);
+	background-repeat:repeat-x;
+}
+.slideshow {
+	height: 205px;
+	width: 147px;
+	float: left;
+	display: block;/* margin-top: 10px; */
+}
+#VisitOurBlog {
+	display:inline-block;
+	width:137px;
+	height:37px;
+	background-image:url('../images/Home/VisitOurBlog_1_00.png');
+	margin-left:12px;
+	margin-right:12px;
+	float:left;
+}
+#VisitOurBlog:hover {
+	background-image:url('../images/Home/VisitOurBlog_2_00.png');
+}
+#GoMobile {
+	display:inline-block;
+	width:137px;
+	height:37px;
+	background-image:url('../images/Home/GoMobile_1_00.png');
+	margin-left:12px;
+	margin-right:12px;
+	float:right;
+}
+#GoMobile:hover {
+	background-image:url('../images/Home/GoMobile_2_00.png');
+}
+#BudBurstObserver {
+	display:inline-block;
+	width:137px;
+	height:37px;
+	background-image:url('../images/BudBurstObserver_1_00.png');
+	margin-left:12px;
+	margin-right:12px;
+}
+#BudBurstObserver:hover {
+	background-image:url('../images/BudBurstObserver_2_00.png');
+}
+#OccasionalObserver {
+	display:inline-block;
+	width:137px;
+	height:37px;
+	background-image:url('../images/OccasionalObserver_1_00.png');
+	margin-left:12px;
+	margin-right:12px;
+}
+#OccasionalObserver:hover {
+	background-image:url('../images/OccasionalObserver_2_00.png');
+}
+#JoinOurCommunity {
+	background-color:#FFFFFF;
+	width:335px;
+	border-top-width: 2px;
+	border-right-width: 2px;
+	border-bottom-width: 8px;
+	border-left-width: 2px;
+	border-style: solid;
+	border-color: #1A29A2; /* #7FB1DE */
+}
+#JoinOurCommunity_Header {
+	height:24px;
+	background-color:#7FB1DE;
+	text-align:center;
+	display:block;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11pt;
+	font-weight:bold;
+	color:#FFFFFF;
+	padding-top:3px;
+	background-image:url(../images/JoinOurCommunityHeader_BG.png);
+	background-repeat:repeat-x;
+}
+#SpecialSectionsx {
+	border-top-width: 2px;
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+	border-style: solid;
+	border-color: #1B6120; /* pink is #d64c61; GREEN is #D64C61 */
+}
+#Phenophases {
+	margin-top:-34px;
+	width:268px;
+	background-color:transparent;
+	float:right;
+	border-top-width: 2px;
+	border-right-width: 2px;
+	border-bottom-width: 8px;
+	border-left-width: 2px;
+	border-style: solid;
+	border-color: #7EAF20;
+}
+#Phenophases_Header {
+	height:24px;
+	background-color:#7EAF20;
+	text-align:center;
+	display:block;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11pt;
+	font-weight:bold;
+	color:#FFFFFF;
+	padding-top:3px;
+}
+#DE9CD0Text {
+	background-image:url(../images/_DE9CD0_Icon.gif);
+	background-repeat:no-repeat;
+	padding-left:24px;
+	font-size:14pt;
+	font-weight:bold;
+	border-bottom:solid #7EAF20 2px; /* #6A9665 */
+	width:85%; /*  */
+	color:#306848;
+}
+#H2Text {
+	color:#306848;
+	font-size:11pt;
+	font-weight:bold;
+	margin-bottom:-4px;
+}
+#FooterNavigation {
+	background-color:black;
+	width:762px;
+	
+	/* height:64px;
+	border-top:4px solid #313131;*/
+	margin-top:0px;
+	/* background-image:url('../images/_Footer_Bg_1_00.png');
+	background-repeat:no-repeat; */
+	
+	background: #0d6636; /* Old browsers */
+	background: -moz-linear-gradient(top, #0d6636 0%, #158a3e 70%, #0d6636 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #0d6636), color-stop(70%, #158a3e), color-stop(100%, #0d6636)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #0d6636 0%, #158a3e 70%, #0d6636 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #0d6636 0%, #158a3e 70%, #0d6636 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #0d6636 0%, #158a3e 70%, #0d6636 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #0d6636 0%, #158a3e 70%, #0d6636 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0d6636', endColorstr='#0d6636', GradientType=0 ); /* IE6-9 */
+	color:#ffffff;
+	text-align:center;
+	font-weight:normal;
+	font-size:8pt;
+}
+
+
+
+#FooterNavigation li {
+	float:left;
+	display:inline;
+	margin:0px;
+	padding:0px;
+	text-align:center;
+	text-decoration:none;
+	color:#ffffff;
+}
+#FooterNavigation ul {
+	list-style:none;
+	margin:0px;
+	padding:0px;
+}
+#FooterNavigation_Staff {
+	display:block;
+	width:127px;
+	height:27px;
+	border-bottom: 6px solid #C8197D;
+	/*background-color:#C8197D;
+	background-image:url('../images/_Staff_1.png'); */
+	color:#ffffff;
+}
+#FooterNavigation_Staff:hover {
+	/*background-image:url('../images/_Staff_2.png');*/
+}
+#FooterNavigation_ContactUs {
+	display:block;
+	width:127px;
+	height:27px;
+	border-bottom: 6px solid #008ABD;
+	color:#ffffff;
+	/* background-color:#008ABD;
+	background-image:url('../images/_ContactUs_1.png');*/
+}
+#FooterNavigation_ContactUs:hover {
+	/*background-image:url('../images/_ContactUs_2.png');*/
+}
+#FooterNavigation_Partners {
+	display:block;
+	width:127px;
+	height:27px;
+	
+	color:#ffffff;
+	border-bottom: 6px solid #EE7527;
+	/* background-color:#EE7527;
+	 background-image:url('../images/_Partners_1.png');*/
+}
+#FooterNavigation_Partners:hover {
+	/*background-image:url('../images/_Partners_2.png');*/
+}
+#FooterNavigation_Policies {
+	display:block;
+	width:127px;
+	height:27px;
+	border-bottom: 6px solid #EBB200;
+	color:#ffffff;
+	/*background-color:#EBB200;
+	background-image:url('../images/_Policies_1.png');*/
+}
+#FooterNavigation_Policies:hover {
+	/* 
+	background-image:url('../images/_Policies_2.png');*/
+}
+#FooterNavigation_Credits {
+	display:block;
+	width:127px;
+	height:27px;
+	border-bottom: 6px solid #7C2D73;
+	
+	color:#ffffff;
+	/* background-color:#7C2D73;
+	background-image:url('../images/_Credits_1.png');*/
+}
+#FooterNavigation_Credits:hover {
+	/*background-image:url('../images/_Credits_2.png');*/
+}
+#FooterNavigation_SiteMap {
+	display:block;
+	width:127px;
+	height:27px;
+	border-bottom: 6px solid #4AA241;
+	color:#ffffff;
+	/*background-color:#4AA241;
+	background-image:url('../images/_SiteMap_1.png');*/
+}
+#FooterNavigation_SiteMap:hover {
+	/*background-image:url('../images/_SiteMap_2.png');*/
+}
+/*
+clearFloat
+{
+	clear:both;
+}
+*/
+
+.centeredPhoto {
+	width: 240px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.leftPhoto {
+	float:left;
+	padding-right:6px;
+	padding-bottom:6px;
+}
+.rightPhoto {
+	float:right;
+	padding-left:6px;
+}
+.photo_caption {
+	font-weight: bold;
+	color: #006;
+	margin: 0px;
+}
+.photo_credit {
+	font-size: x-small;
+	margin: 0px;
+}
+#mbb3col {
+	left:32px;
+	padding-top:12px;
+	padding-bottom:12px;
+	width:680px; /* 762-16 = 754 */
+	background-color:#FFFFFF; /* #FFFFFF was sage #DCF2D6 */
+	margin: auto;
+	text-align: left;
+}
+.mbb3colInner {
+	padding: 2px 2px 2px 6px;
+}
+#mbbLeft {
+	float: left;
+	width: 200px;
+	height: 330px;
+	background-color:#FFFFFF; /* #DCF2D6 */
+	border-top-width:2px;
+	border-right-width:2px;
+	border-bottom-width:8px;
+	border-left-width:2px;
+	border-style:solid;
+	border-color:#1A29A2; /* medium #1B6120 light #6CBA1F  blue ##1A29A2 */
+}
+#mbbMiddle {
+	float: left;
+	width: 200px;
+	height: 330px;
+	margin-left: 18px;
+	margin-right: 18px;
+	background-color:#FFFFFF; /* #DCF2D6 */
+	border-top-width:2px;
+	border-right-width:2px;
+	border-bottom-width:8px;
+	border-left-width:2px;
+	border-style:solid;
+	border-color:#1A29A2; /* medium #1B6120 light #6CBA1F  blue ##1A29A2 */
+}
+#mbbRight {
+	float: left;
+	width: 200px;
+	height: 330px;
+	background-color:#FFFFFF; /* #DCF2D6 */
+	border-top-width:2px;
+	border-right-width:2px;
+	border-bottom-width:8px;
+	border-left-width:2px;
+	border-style:solid;
+	border-color:#1A29A2; /* medium #1B6120 light #6CBA1F  blue ##1A29A2 */
+}
+#mbbLeftHeader {
+	height:24px;
+	background-color:#1B6120; /* #F3BC00 */
+	text-align:center;
+	display:block;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11pt;
+	font-weight:bold;
+	color:#FFFFFF; /*  #FFFFFF */
+	padding-top:3px;
+	background-image:url(../images/JoinOurCommunityHeader_BG.png);
+	background-repeat:repeat-x;
+}
+/* ################################# MyBudBurst.php page Styles ############################## */
+
+
+img.plantholder ,img.imageholder {border-radius:10px;}
+.plantholder {border-radius:5px;}
+
+
+/*  ######################### My_Regular_Reports Page Styles ######################### */
+/* begin my_regular_reports.php styles*/
+#headerholder{
+height: 50px;
+}
+
+.siteholder{
+background-color: #f6f2f2;/* #EDE1E1;*/
+padding: 5px 10px 10px 10px;
+margin: 0 0 10px 0;
+border-radius:10px;
+box-shadow:5px 5px 5px #CCCCCC;
+
+}
+
+.siteholder h3 {font-size:1.7em; text-shadow:none; font-weight:bold;}
+
+.plantholder{
+border:1px solid grey;
+margin: 0 0 20px 30px;
+padding: 10px;
+height: 100px;
+}
+
+.imageholder{
+float:left;
+}
+
+.plantname{
+margin: 0px 0 0 15px;
+width: 35%;
+float:left;
+height:100px;
+padding:0 0 0 0;
+}
+.plantname h3 {margin:0 0 0 0; padding:0 0 0 0; font-size:1.3em;}
+
+#addplantholder{
+width: 200px;
+height: 24px;
+text-align: center;
+margin: 0 auto;
+position:relative;
+top:-46px; 
+}
+
+.button1{
+width: 300px;
+float:left;
+margin: 20px 0 0 0;
+}
+
+.button2{
+width: 200px;
+float:left;
+margin: 0;
+}
+
+
+#stationname {padding:10px 0 20px 30px;}
+#stationname input {margin-right:15px;}
+
+#btnhelp {cursor:help;} /* this style adds a cool little question mark upon hover */
+
+
+/* ************ BUTTON STYLES ********************** */
+
+#singlereport, #regularreport, #idguide {width:180px; height:75px; float:left;}
+
+.buttons, .buttons:link, .buttons:visited {margin:0 7px 5px 0;}
+
+.buttons, .buttons:link, .buttons:visited {
+	padding: 4px 12px;
+	display: inline-block;
+	text-align: center;
+	position: relative;
+	background-color: #0d6636;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#73bc23', endColorstr='#0d6636');
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#73bc23), to(#0d6636));
+	background-image: -webkit-linear-gradient(top, #73bc23, #0d6636);
+	background-image: -moz-linear-gradient(top, #73bc23, #0d6636);
+	background-image: -ms-linear-gradient(top, #73bc23, #0d6636);
+	background-image: -o-linear-gradient(top, #73bc23, #0d6636);
+	background-image: linear-gradient(top, #73bc23, #0d6636);
+	color: #ffffff;
+	font-size: 1.2em;
+	font-family: sans-serif;
+	border: 1px solid #67A81F;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	text-decoration: none;
+	font-weight: bold;
+	font-style: normal;
+}
+
+.buttons:hover, .buttons:active {
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0d6636', endColorstr='#0d6636');
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0d6636), to(#0d6636));
+	background-image: -webkit-linear-gradient(top, #0d6636, #0d6636);
+	background-image: -moz-linear-gradient(top, #0d6636, #0d6636);
+	background-image: -ms-linear-gradient(top, #0d6636, #0d6636);
+	background-image: -o-linear-gradient(top, #0d6636, #0d6636);
+	background-image: linear-gradient(top, #0d6636, #0d6636);
+	font-family: sans-serif;
+	
+}
+
+/* Badge buttons for the partner and other pages */
+.badgeHolder {  }
+
+
+.badgeButtons span {
+	opacity:0.8;
+	position:absolute;
+	color: #FFFFFF;
+	display: block;
+	font-size: 1.20em;
+	font-weight: bold;
+	margin-top: -29px; /* the more negative this value is, the higher it sits on the image */
+	opacity: 0.9;
+	text-align:center;
+	width: 213px;
+	/*background:url(../images/1_bannerRedesign/icons/download.png) no-repeat #32520F;*/
+	background-color:#32520F;
+	border-radius:0 0 5px 5px;
+	background-position:left center;
+	line-height:1.5em;
+}
+
+.badgeButtons span:hover {background-color:#fff; }
+.badgeButtons a img {
+	border-radius: 5px;
+	/*position: absolute; */
+	z-index: 0;
+}
+
+
+/* MY BUDBURST CSS */
+
+
+/*'buttons' used on occ_obs4_do to allow visitor to return to their mybudburst page, make another report*/
+.regReportSubmit {
+height: 63px;
+width: 200px;
+padding: 17px 0 0 0;
+Float:left
+}
+
+.pseudobuttons a:hover{
+text-decoration:none;
+}
+
+/* form styles - these are the styles for the input and link buttons on the MyRegReports page. */
+
+input#update, input#btnmake, input#btndeleteplant,a.btnregister, a.btnregister:link, a.btnregister:visited {
+	border:1px solid #67A81F;
+	padding:6px 6px 5px 25px;
+	color:#ffffff;
+	font-weight:bold;
+	border-radius:5px;
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+	background-size:22px;
+	background-position:5px;
+	}
+
+
+input#update:hover, input#btnmake:hover, input#btndeleteplant:hover {
+	cursor:pointer;
+	background-size:22px;
+	background-position:5px;}
+
+a.btnregister, a.btnregister:link, a.btnregister:visited { background:url(../images/icons/addSite_icon.png) no-repeat #A7508E;
+	padding:10px 10px 8px 32px;
+	background-position:5px;
+	margin:0 0 0 10px;	
+	}
+
+a.btnregister:hover  { 
+	background:url(../images/icons/addSite_icon.png) no-repeat #6E4662;
+	background-position:5px;
+	}
+
+input.btnManage { 	background:url(../images/icons/manageClass_icon.png) no-repeat #A7508E; margin:10px;}
+input.btnManage:hover { background:url(../images/icons/manageClass_icon.png) no-repeat #6E4662;}
+
+input#btnmake { background:url(../images/icons/submitObs_icon.png) no-repeat #A7508E;	}
+input#btnmake:hover { background:url(../images/icons/submitObs_icon.png) no-repeat #6E4662;}
+
+input.btnAddPlant{ background:url(../images/icons/addPlant_icon.png) no-repeat #A7508E;	margin:10px;}
+input.btnAddPlant:hover{ background:url(../images/icons/addPlant_icon.png) no-repeat #6E4662;	}
+
+				
+input#btndeleteplant { background:url(../images/icons/deletePlant_icon.png) no-repeat #A7508E;	}
+input#btndeleteplant:hover { background:url(../images/icons/deletePlant_icon.png) no-repeat #6E4662;}
+
+.buttons .highlight {
+	position: absolute;
+	display: block;
+	z-index: 1;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+	top: 10%;
+	width: 90%;
+	height: 10%;
+	left: 5%;
+	background: #ffffff;
+	filter: Alpha(opacity=30);
+	opacity: 0.3;
+}
+
+/*end my_regular_reports.php styles*/  
+
+/*  ######################### Manage Classroom Styles  ######################### */
+
+#addreporteraccounts,#viewreporteraccounts, #deletreporteraccounts {
+	padding:9px;
+	border-radius:10px;
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+	height:240px;
+	
+	}
+	
+#addreporteraccounts strong, #viewreporteraccounts strong, #deletreporteraccounts strong {font-size:1.2em; color:#306848;}
+
+
+/* ################################# ABOUT  Section Specific Styles -  ############################## */
+
+#about .plantgrouplinks {padding:0 0;}
+#about .plantgrouplinks  li {width:275px;}
+#about .sublinks {padding:0 0;}
+
+/* this adjusts the styles for the about section */
+#about #LeftColumnSpecialSection, #cherry #LeftColumnSpecialSection  {border:none;}
+#about #RightColumnSpecialSection, #cherry #RightColumnSpecialSection {width:270px;
+	padding:40px 0 0 0;
+	border-right:none;}
+	
+
+/* ################################# PARTNERS  Section Specific Styles - RIGHT SIDE LINKS ############################## */
+
+#Partners #RightSpecialSection ul li {list-style:none;}
+#Partners #RightSpecialSection ul  {padding:0 0 0 0px;}
+#Partners #RightSpecialSection ul li a:link,#Partners #RightSpecialSection ul li a:visited   {
+	display:block;
+	width:205px;
+	text-decoration:none;
+    background-color:#ffffcc; 
+	border-top:1px solid #ccc;
+	padding:6px;
+	color:#333;
+	font-size:.9em;
+	line-height:1.2em;
+	font-weight:normal;
+	}
+#Partners #RightSpecialSection ul li a:hover  {border-top:2px solid #F90; border-bottom:2px solid #F90; color:#000; }
+
+
+.mostwantedplants {
+	width:120px; 
+	height:180px; 
+	margin:0 15px 10px 0; 
+	border: 1px solid #ccc;float:left; 
+	background-color:#fcdab0; 
+	border-radius:8px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	}
+
+
+/* ################################# This CSS styles both the CHOSE buttons and the buttons on the get started pages (the PBB steps) ############################## */
+
+.plantgrouplinks li{
+border:1px solid #2F6C4D;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+width: 285px;
+height: 40px;
+margin: 5px 0 0 0;
+text-align:left;
+list-style-type: none;
+}
+
+.plantgrouplinks li a{
+display:block;
+text-decoration:none;
+height:100%;
+width:100%;
+}
+.plantgrouplinks li a:hover {
+	background-color:#FCDAB0; 
+	cursor:pointer;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;}
+
+.plantgrouplinks img {
+ float:left;
+margin: 2px 0 0 10px;
+}
+.plantgrouplinks li li img {float:none;}
+.plantgrouplinks .darkgreen li ul li {border:none;}
+.plantgrouplinks p{
+margin: 8px 0 0 0;
+color: #2F6C4D;
+font-size: 1.2em;
+padding: 0 0 0 10px;
+float:left;
+}
+
+/* this style makes a dark green background */
+
+.darkgreen {background-color:#2F6C4D; color:#fff}
+li.darkgreen p {color:#fff;}
+.plantgrouplinks li.darkgreen a:hover p {color:#2F6C4D;}
+
+/* this class styles the sublinks in the getstarted list */
+.sublinks ul {margin:10px 10px;}
+.sublinks li { list-style-image:url("../images/1_bannerRedesign/PBBIconBullet.png");
+margin:0 0 0 30px;}
+
+/* This is the css for the EDU activities */
+.activityDescription { min-height:205px;}
+.activityDescription a, .activityDescription a:link, .activityDescription a:active, .activityDescription a:visited   {font-size:1.1em;}
+.activityDescription p {padding:0 0 0 230px;}
+.activityDescription h2 {padding:25px 0 3px 2px;
+			border-bottom:4px solid #9BCE46 ;} 
+			
+.activityDescription h3 {
+	font-size:1em;
+	padding:5px 0 3px 230px;
+	text-shadow:none;
+			} 
+
+.activityDescription img {
+	border-radius:6px; 
+	-moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+	margin:5px 0 0 0; 
+	}
+	
+.standards {float:left;}
+
+
+
+/* NAVIGATION BAR SUBMENU STYLES */
+
+ul.dropdown li {
+	color:#fff;
+	padding:2px 0 0 0;
+}
+ul.dropdown {
+	font-weight: bold;
+}
+ul.dropdown li {
+	color: #000;
+	height:26px; /* 27px */
+	width:109px;
+}
+ul.dropdown li.hover, ul.dropdown li:hover {
+	width:109px;
+	height:26px;
+}
+ul.dropdown li a:link, ul.dropdown li a:visited {
+	color: #fff;
+	text-decoration: none;
+	display:block;
+	width:109px;
+	height:26px;
+	text-align:center;
+	padding:4px 0 0 0;
+} /* #000 */
+ul.dropdown li a:hover {
+	color: #fff;
+} 
+
+
+ul.dropdown a:active {
+	color: #ffa500;
+}
+
+ul.dropdown ul li a:link, ul.dropdown ul li a:visited {
+	color: #000;
+	text-decoration: none;
+	display:block;
+	width:150px;
+	height:26px;
+	text-align:left;
+}
+ul.dropdown ul {
+	width: 127px; /* 150 */
+	margin-top: 1px;
+}
+ul.dropdown ul li {
+	font-weight: normal;
+}
+/*  These styles set the color for the drop down menus in the nav bar */
+
+ul.dropdown li.AboutUs {
+	background-color: #D64C61;
+	width:150px;
+}
+ul.dropdown li.AboutUs:hover {
+	background-color: #E38896;
+}
+ul.dropdown li.PlantResources {
+	background-color: #FF7500;
+	width:130px;
+}
+ul.dropdown li.PlantResources:hover {
+	background-color: #FFAF6F;
+}
+ul.dropdown li.Partners {
+	background-color: #feea2e;
+	width:130px;
+}
+ul.dropdown li.Partners:hover {
+	background-color: #fdf6b7;
+}
+ul.dropdown li.Education {
+	background-color: #7EAF20;
+	width:130px;
+}
+ul.dropdown li.Education:hover {
+	background-color: #9BCE46;
+}
+ul.dropdown li.Phenology {
+	background-color: #6fd3ff;
+	width:130px;
+}
+ul.dropdown li.Phenology:hover {
+	background-color: #ace3fb;
+}
+ul.dropdown li.Data {
+	background-color: #778ce9;
+	width:130px;
+}
+ul.dropdown li.Data:hover {
+	background-color: #b3c0f6;
+}
+ul.dropdown li.MyBudBurst {
+	background-color: #b971a4;
+	width:130px;
+}
+ul.dropdown li.MyBudBurst:hover {
+	background-color: #e7c3dd;
+}
+ul.dropdown, ul.dropdown li, ul.dropdown ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+ul.dropdown {
+	position: relative;
+	z-index: 597;
+	float: left;
+}
+ul.dropdown li {
+	float: left;
+	line-height: 1.3em;
+}
+ul.dropdown li.hover, ul.dropdown li:hover {
+	position: relative;
+	z-index: 599;
+	cursor: default;
+}
+ul.dropdown ul {
+	visibility: hidden;
+	position: absolute;
+	top: 120%;
+	left: 0;
+	z-index: 598;
+	width: 100%;
+}
+ul.dropdown ul li {
+	float: none;
+}
+ul.dropdown ul ul {
+	top: 1px;
+	left: 99%;
+}
+ul.dropdown li:hover > ul {
+	visibility: visible;
+}
+
+
+#datasetsIncluded ul li a span {
+	background-color: #BF6000;
+	color: #FFFFFF;
+	display: block;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 35px;
+	margin-top: 80px;
+	opacity: 0.8;
+	padding-left: 12px;
+	position: absolute;
+	width: 156px;
+}

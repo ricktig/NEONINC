@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+/** 
+ * Default CSS Drop-Down Menu Theme
+ *
+ * @file		default.css
+ * @name		Default
+ * @version		0.1.1
+ * @type		transitional
+ * @browsers	Windows: IE5+, Opera7+, Firefox1+
+ *				Mac OS: Safari2+, Firefox2+
+ *
+ * @link		http://www.lwis.net/
+ * @copyright	2008 Live Web Institute. All Rights Reserved.
+ *
+ * Module Classes: *.dir {} *.on {} *.open {} li.hover {} li.first {} li.last {}
+ * Expected directory tag - li
+ *
+ */
+
+ul.dropdown {
+ font-weight: bold;
+}
+
+ul.dropdown li {
+ color: #000;
+ height:26px; /* 27px */
+ width:127px;
+}
+
+ul.dropdown li.hover,
+ul.dropdown li:hover {
+ width:127px;
+ height:26px;
+}
+
+ul.dropdown a:link,
+ul.dropdown a:visited	{ color: #000; text-decoration: none; display:block; width:127px; height:26px; } /* #000 */
+ul.dropdown a:hover		{ color: #000;} /* background-image: url('../images/_AboutBudBurst_1.png'); */
+ul.dropdown a:active	{ color: #ffa500; }
+
+ul.dropdown ul {
+ width: 127px; /* 150 */
+ margin-top: 1px;
+}
+
+ul.dropdown ul li {
+ font-weight: normal;
+}
+
+ul.dropdown li.AboutUs {background-color: #D64C61;}
+ul.dropdown li.AboutUs:hover {background-color: #E38896;}
+ul.dropdown li.GetStarted {background-color: #7FB1DE;}
+ul.dropdown li.GetStarted:hover {background-color: #A2C7E8;}
+ul.dropdown li.PlantResources {background-color: #FF7500;}
+ul.dropdown li.PlantResources:hover {background-color: #FFAF6F;}
+ul.dropdown li.Phenology {background-color: #7EAF20;}
+ul.dropdown li.Phenology:hover {background-color: #9BCE46;}
+ul.dropdown li.ViewResults {background-color: #EBB700;}
+ul.dropdown li.ViewResults:hover {background-color: #FFDA59;}
+ul.dropdown li.ReportObservations {background-color: #C652AE;}
+ul.dropdown li.ReportObservations:hover {background-color: #DC98CE;}
+
